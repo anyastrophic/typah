@@ -18,5 +18,4 @@ Typer.text = "Hello, world!"
 # Typer.line_delay = 0
 # Typer.random_ranges = {"key": [0.05, 0.3], "line": [0.1, 1]}
 # Typer.random = False
-# Typer.running = False
 ```
