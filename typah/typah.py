@@ -28,7 +28,9 @@ class Typer():
             for line in self.text.split("\n"):
 
                 if self.roblox_mode:
-                    keyboard.press_and_release("/")
+                    keyboard.press("/")
+                    time.sleep(0.07)
+                    keyboard.press("/")
 
                 if not self.running:
                     return
