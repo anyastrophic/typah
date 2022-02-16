@@ -4,7 +4,7 @@ An insanely simple application to auto type. Supports multi line, repeat, random
 
 # Usage
 
-```
+```python
 import typah
 
 Typer = typah.Typer()
