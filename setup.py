@@ -7,7 +7,7 @@ setup(
     url='https://github.com/logixhot/typah',
     author='Logix',
     license='MIT',
-    packages=[],
+    packages=['typah'],
     install_requires=['keyboard'],
 
     classifiers=[],
