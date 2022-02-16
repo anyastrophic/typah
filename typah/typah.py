@@ -30,7 +30,7 @@ class Typer():
                 if self.roblox_mode:
                     keyboard.press("/")
                     time.sleep(0.07)
-                    keyboard.press("/")
+                    keyboard.release("/")
 
                 if not self.running:
                     return
