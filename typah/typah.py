@@ -4,7 +4,7 @@ import keyboard
 
 class Typer():
     def __init__(self):
-        self.repeat_amount = 1
+        self.repeat_amount = 0
         self.key_delay = 0
         self.line_delay = 0
         self.random_ranges = {"key": [0.05, 0.3], "line": [0.1, 1]}
