@@ -8,7 +8,7 @@ pip install git+https://github.com/logixhot/typah.git
 ```
 
 ```python
-import typah
+from typah import typah
 
 Typer = typah.Typer()
 Typer.text = "Hello, world!"
