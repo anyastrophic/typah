@@ -3,7 +3,9 @@ An insanely simple application to auto type. Supports multi line, repeat, random
 
 
 # Usage
+```
 pip install git+https://github.com/logixhot/typah.git
+```
 
 ```python
 import typah
