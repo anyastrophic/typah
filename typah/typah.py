@@ -9,6 +9,7 @@ class Typer():
         self.line_delay = 0
         self.random_ranges = {"key": [0.05, 0.3], "line": [0.1, 1]}
         self.random = False
+        self.roblox_mode = True
         self.running = False
         
         self.text = ""
@@ -25,6 +26,9 @@ class Typer():
 
         for i in range(self.repeat_amount):
             for line in self.text.split("\n"):
+
+                if self.roblox_mode:
+                    keyboard.press_and_release("/")
 
                 if not self.running:
                     return
